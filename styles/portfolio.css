@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 200px;
+}
+nav .heading-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+nav .heading-title1{
+    color:tomato;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+  
+}
+nav ul li{
+    list-style: none;
+    margin-right: 40px;
+}
+
+nav li a{
+    text-decoration: none;
+}
+
+.list1{
+    color: gray;
+}
+
+.button1{
+   background-color: tomato;
+   color: white;
+   border: none;
+   font-weight: bold;
+   padding: 15px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+/* banner section */
+.banner-parent{
+    display: flex;
+    align-items: center;
+    background-image: url("/images/developer.png"),url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+   
+
+}
+.banner-text{
+    margin: 0 200px;
+}
+.banner-text h4{
+    font-size: 45px;
+    color:gray
+}
+.banner-text h1{
+    font-size: 85px;
+}
+
+.banner-text  .banner-description{
+    font-size: 18px;
+}
+
+.banner-image{
+    margin: 0 200px;
+}
+
+.banner-image .image1{
+    width: 580px;
+}
+
+/* Main section is started */
+
+main{
+    max-width: 950px;
+    margin: 130px auto;
+}
+.section-title{
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 110px 60px;
+    box-shadow: 3px 3px 4px grey;
+}
+
+.section-title .heading-3{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.section-title .para-1{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: grey;
+}
+.address{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.address .parg{
+    color: grey;
+
+}
+
+/* skills */
+.skills{
+    margin-top: 120px;
+}
+.skills .heading-h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.skills .para-3{
+    text-align: center;
+    color: grey;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.skills-container .skills-title{
+    font-size: 20px;  
+    margin-top: 25px;          
+
+}
+.skills-child{
+    background-color:#FFF8F3;
+    padding: 30px 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px 2px;
+}
+.skills-container .skills-p1{
+    font-size: 16px;
+    color:grey;
+    margin-top: 15px;
+}
